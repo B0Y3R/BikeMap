@@ -19,14 +19,22 @@ class Map extends React.Component {
  
   render() {
     return (
+
       <div className="container">
-      <div className="camera"></div>
-      <ReactMapGL
-        {...this.state.viewport}
-        onViewportChange={(viewport) => this.setState({viewport})}
-      />
-      <div className="btn"></div>
+
+    
+      
+        <div className="tablet">
+        <div className="camera"></div>
+        <ReactMapGL
+          {...this.state.viewport}
+          onViewportChange={(viewport) => this.setState({viewport})}
+        />
+        <div className="btn"></div>
+        </div>
+
       </div>
+
     );
   }
 }
