@@ -1,0 +1,24 @@
+/* legend styles */
+
+.legend {
+    display: flex;
+    height: 40%;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+  }
+
+  li {
+    color: #222;
+    font-size: 1.5em;
+    list-style: none;
+    text-align: center;
+    flex-basis: 50%;
+  }
+
+  i {
+    padding-right: 20px;
+  }

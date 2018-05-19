@@ -1,28 +1,17 @@
 import React from 'react';
 import Map from './Map';
 import '../_Styles/Body.css';
+import R_Sidebox from './R_Sidebox';
  
 class Body extends React.Component {
  
   render() {
     return (
       <div className="Main">
-
-    
-      
-        <div className="tablet">
+        <div className="Container"> 
         <Map />
-
-        <div className="R_sidebox">
-          <div className="sidebox_banner">Title</div>
-
-          <div className="info_line">Info line 1</div>
-          <div className="info_line">Info line 2</div>
-          <div className="info_line">Info line 3</div>
-
+          <R_Sidebox />          
         </div>
-        </div>
-
       </div>
 
     );
