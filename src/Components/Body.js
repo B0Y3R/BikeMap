@@ -1,6 +1,6 @@
 import React from 'react';
 import Map from './Map';
-import '../App.css';
+import '../_Styles/Body.css';
  
 class Body extends React.Component {
  
@@ -14,9 +14,7 @@ class Body extends React.Component {
         <Map />
 
         <div className="R_sidebox">
-          <div className="sidebox_banner">
-            <div className="title">Title</div>
-          </div>
+          <div className="sidebox_banner">Title</div>
 
           <div className="info_line">Info line 1</div>
           <div className="info_line">Info line 2</div>
