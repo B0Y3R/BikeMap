@@ -1,12 +1,24 @@
-.Main {
+  .Main {
     display: flex;
+    flex-direction: row;
   }
   
   .Container {
     display: flex;
+    flex-direction: column;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     border-top-right-radius: 10px;
     background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .center {
+    display: flex;
+  }
+
+  .bottom {
+    text-align: center;
   }
   
   
