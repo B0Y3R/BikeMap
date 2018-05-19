@@ -12,7 +12,7 @@ class Map extends React.Component {
         longitude: -86.1580,
         zoom: 13,
         mapboxApiAccessToken: 'pk.eyJ1IjoiZ29ib3llciIsImEiOiJjamg4Z28xbm0wMXFnMzZ0ZHlqbHY1eHYyIn0.4GyOTtSo-i1WWPi1O8EYKg',
-        mapStyle: "mapbox://styles/mapbox/streets-v10",
+        mapStyle: "mapbox://styles/mapbox/dark-v9",
       }
     };
    

@@ -6,59 +6,33 @@ body {
   align-items: center;
 }
 
-.container {
+.Main {
   display: flex;
   width: 1100px;
 }
 
 .tablet {
+  display: flex;
   padding: 50px;
   background-color: #111;
   border-radius: 15px;
-  box-shadow: 1px 19px 83px 7px rgba(0,0,0,0.75)
-
+  box-shadow: 1px 19px 83px 7px rgba(0,0,0,0.75);
 }
-
-.btn {
-  height: 50px;
-  width: 50px;
-  border: 2px solid #fff;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: -25px;
-  opacity: 0.2;
-  border-radius: 25px;
-}
-
-.camera {
-  height: 10px;
-  width: 10px;
-  border: 2px solid #888;
-  margin: 0 auto;
-  opacity: 0.2;
-  border-radius: 8px;
-  margin-top: -20px;
-  margin-bottom: 20px
-}
-
 
 .R_sidebox {
   display: flex;
   flex-direction: column;
-  flex-basis: 30%;
   background-color: #fff;
-  border-radius: 10px 10px 0 0;
-  margin-left: 20px;
-  height: 300px;
+  height: 600px;
+  width: 250px;
   box-shadow: 1px 19px 83px 7px rgba(0,0,0,0.75);
+  padding: 50px;
 }
 
 .sidebox_banner {
   height: 75px;
   background-color: rgb(165, 18, 18);
   width: 100%;
-  border-radius: 10px 10px 0 0;
-  
 }
 
 .title {
