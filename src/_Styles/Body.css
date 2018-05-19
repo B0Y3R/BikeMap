@@ -5,9 +5,6 @@
   
   .tablet {
     display: flex;
-    padding: 50px;
-    background-color: #111;
-    border-radius: 15px;
     box-shadow: 1px 19px 83px 7px rgba(0,0,0,0.75);
   }
   
@@ -15,15 +12,13 @@
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    height: 600px;
-    width: 250px;
+    height: 100%;
+    width: 280px;
     box-shadow: 1px 19px 83px 7px rgba(0,0,0,0.75);
-    padding: 50px;
   }
   
   .sidebox_banner {
     background-color: rgb(165, 18, 18);
-    width: 100%;
     color: white;
     text-align: center;
     line-height: 75px;
